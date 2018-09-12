@@ -5,6 +5,7 @@ to avoid from loading binary fail.
 
 #env
 node:8.9.1
+
 support mac/linux
 
 ## License
