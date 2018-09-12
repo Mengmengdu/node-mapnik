@@ -1,22 +1,18 @@
 {
-  "name": "mapnik",
-  "description": "Tile rendering library for node",
-  "url": "http://github.com/mapnik/node-mapnik",
-  "homepage": "http://mapnik.org",
-  "author": "Dane Springmeyer <dane@mapbox.com> (mapnik.org)",
-  "version": "3.7.0",
+  "name": "node-mapnik-forked",
+  "description": "Tile rendering library for node, Fork from mapnik/node-mapnik, origin author is Dane Springmeyer <dane@mapbox.com> (mapnik.org)",
+  "url": "https://github.com/Mengmengdu/node-mapnik/",
+  "homepage": "",
+  "author": "Meng",
+  "version": "0.0.1",
   "mapnik_version":"v3.0.18",
   "main": "./lib/mapnik.js",
   "binary": {
     "module_name": "mapnik",
     "module_path": "./lib/binding/",
-    "host": "https://mapbox-node-binary.s3.amazonaws.com",
-    "remote_path": "./{module_name}/v{version}/",
+    "host": "https://a.amap.comresource",
+    "remote_path": "./jsapi_demos/static/{module_name}/v{version}/",
     "package_name": "{node_abi}-{platform}-{arch}-{configuration}{toolset}.tar.gz"
-  },
-  "bugs": {
-    "email": "dane@mapbox.com",
-    "url": "http://github.com/mapnik/node-mapnik/issues"
   },
   "keywords": [
     "map",
@@ -28,11 +24,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapnik/node-mapnik.git"
+    "url": "git://github.com/Mengmengdu/node-mapnik.git"
   },
   "contributors": [
-    "Konstantin Käfer",
-    "Blake Thompson"
   ],
   "license": "BSD-3-Clause",
   "dependencies": {
